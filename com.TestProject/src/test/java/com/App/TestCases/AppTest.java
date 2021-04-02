@@ -20,9 +20,6 @@ public class AppTest
     	System.out.println("Maven Ruby");
     	System.out.println("Maven VB");
     	
-    	System.out.println("launching browser");
-        System.out.println("verify username");
-        System.out.println("verify password");
         
         
     }
