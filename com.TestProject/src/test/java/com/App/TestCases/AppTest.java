@@ -19,6 +19,7 @@ public class AppTest
     	System.out.println("Maven Python");
     	System.out.println("Maven Ruby");
     	System.out.println("Maven VB");
+    	System.out.println("Students project");
     	
         
         
