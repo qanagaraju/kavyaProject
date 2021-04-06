@@ -13,20 +13,17 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class AppBrowserClass
 {
    
-	public  WebDriver driver;
+	public static  WebDriver driver;
 	public ChromeDriver chromedriver;
 	public FirefoxDriver firefoxdriver;
 	
-	public WebDriver InvokeBrowser(String browsername,String appurl) {
+	public static WebDriver InvokeBrowser(String browsername,String appurl) {
 		
 		
 		if(browsername.equals("chrome")) {
 			
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--chrome");
-			
-			chromedriver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver","./myDrivers/chromedriver.exe" );
+			driver = new ChromeDriver();
 		
 		}else if(browsername.equals("firefox")) {
 			
@@ -41,8 +38,8 @@ public class AppBrowserClass
 		}
 		
 		
-		chromedriver.get(appurl);
-		chromedriver.manage().window().maximize();
+		driver.get(appurl);
+		driver.manage().window().maximize();
 		
 		
 		return driver;

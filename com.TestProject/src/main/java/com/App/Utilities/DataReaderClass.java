@@ -32,6 +32,27 @@ public class DataReaderClass {
 	}
 	
 	
+	//Create methods for Repositories
+	public String getusernameelement() {
+		return prop.getProperty("username");
+	}
+	
+	
+	public String getpasswordelement() {
+		return prop.getProperty("password");
+	}
+	
+	public String getbuttonelement() {
+		return prop.getProperty("loginbutton");
+	}
+	
+	public String getsignoutelement() {
+		return prop.getProperty("signoutbutton");
+	}
+	
+	
+	
+	//Properties
 	public String getbrowsername() {
 		
 		return prop.getProperty("browsername");
@@ -43,7 +64,17 @@ public class DataReaderClass {
 	}
 	
 	
+	public String getusername() {
+		return prop.getProperty("uname");
+	}
 	
+	public String getpassword() {
+		return prop.getProperty("pword");
+	}
+	
+	public String getinvalidusername() {
+		return prop.getProperty("invalidusername");
+	}
 	
 	
 	
