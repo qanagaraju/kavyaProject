@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.App.TestCases.AppTest">
+      <class name="com.App.TestCases.AppLoginTestCase">
         <methods>
-          <include name="setupsuite"/>
+          <include name="closebrowser"/>
           <include name="launchbrowser"/>
-          <include name="verifyMaven"/>
+          <include name="setupsuite"/>
+          <include name="verifyvalidlogin"/>
         </methods>
-      </class> <!-- com.App.TestCases.AppTest -->
+      </class> <!-- com.App.TestCases.AppLoginTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

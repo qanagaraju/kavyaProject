@@ -1,95 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[verify username]]>
+    </line>
+    <line>
+      <![CDATA[verify password]]>
+    </line>
+    <line>
+      <![CDATA[verify button]]>
+    </line>
+    <line>
+      <![CDATA[verify signout]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-03-31T18:13:27 IST" name="Default suite" finished-at="2021-03-31T18:13:30 IST" duration-ms="3089">
+  <suite started-at="2021-04-07T07:55:36 IST" name="Suite" finished-at="2021-04-07T07:55:50 IST" duration-ms="14069">
     <groups>
     </groups>
-    <test started-at="2021-03-31T18:13:27 IST" name="Default test" finished-at="2021-03-31T18:13:30 IST" duration-ms="3089">
-      <class name="com.App.TestCases.AppTest">
-        <test-method is-config="true" signature="setupsuite()[pri:0, instance:com.App.TestCases.AppTest@6a6afff2]" started-at="2021-03-31T18:13:27 IST" name="setupsuite" finished-at="2021-03-31T18:13:27 IST" duration-ms="11" status="PASS">
+    <test started-at="2021-04-07T07:55:36 IST" name="Test" finished-at="2021-04-07T07:55:50 IST" duration-ms="14069">
+      <class name="com.App.TestCases.AppLoginTestCase">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:com.App.TestCases.AppLoginTestCase@29647f75]" started-at="2021-04-07T07:55:36 IST" name="setupsuite" finished-at="2021-04-07T07:55:36 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupsuite -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.App.TestCases.AppTest@6a6afff2]" started-at="2021-03-31T18:13:27 IST" name="launchbrowser" finished-at="2021-03-31T18:13:30 IST" duration-ms="3006" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at com.App.Utilities.AppBrowserClass.InvokeBrowser(AppBrowserClass.java:31)
-at com.App.TestCases.AppTest.launchbrowser(AppTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.App.TestCases.AppLoginTestCase@29647f75]" started-at="2021-04-07T07:55:36 IST" name="launchbrowser" finished-at="2021-04-07T07:55:42 IST" duration-ms="5533" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="verifyMaven()[pri:0, instance:com.App.TestCases.AppTest@6a6afff2]" started-at="2021-03-31T18:13:30 IST" name="verifyMaven" finished-at="2021-03-31T18:13:30 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at com.App.Utilities.AppBrowserClass.InvokeBrowser(AppBrowserClass.java:31)
-at com.App.TestCases.AppTest.launchbrowser(AppTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.beforeRun(TestRunner.java:607)
-at org.testng.TestRunner.run(TestRunner.java:578)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="verifyvalidlogin()[pri:1, instance:com.App.TestCases.AppLoginTestCase@29647f75]" started-at="2021-04-07T07:55:42 IST" name="verifyvalidlogin" description="valid login test" finished-at="2021-04-07T07:55:49 IST" duration-ms="7391" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verify username]]>
+            </line>
+            <line>
+              <![CDATA[verify password]]>
+            </line>
+            <line>
+              <![CDATA[verify button]]>
+            </line>
+            <line>
+              <![CDATA[verify signout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyvalidlogin -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.App.TestCases.AppLoginTestCase@29647f75]" started-at="2021-04-07T07:55:49 IST" name="closebrowser" finished-at="2021-04-07T07:55:50 IST" duration-ms="1043" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyMaven -->
-      </class> <!-- com.App.TestCases.AppTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.App.TestCases.AppLoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

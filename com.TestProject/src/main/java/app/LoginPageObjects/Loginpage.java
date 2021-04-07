@@ -70,14 +70,6 @@ public class Loginpage extends DataReaderClass{
 		
 	}
 	
-	public void verifyinvalidusername() {
-		
-		driver.findElement(By.name(getusernameelement())).sendKeys(getinvalidusername());
-		
-		
-		
-		
-	}
 	
 	
 	
