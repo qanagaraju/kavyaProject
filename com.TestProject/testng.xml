@@ -8,7 +8,7 @@
   </test> <!-- Test -->
   
   
-  <test  name="logintest">
+  <test  name="weblinkstest">
     <classes>
       <class name="com.App.TestCases.verifyWebLinks"/>
     </classes>

@@ -63,28 +63,29 @@ public void launchbrowser() {
     	Reporter.log("verify username");
     	
     	test.log(LogStatus.INFO, "Verifying username");
-    	capture.capturescreen(driver, "username");
+    	//capture.capturescreen(driver, "username");
     	
-    	String usernamescreen = capture.capturescreen(driver, "username");
-		String unamescreen = test.addScreenCapture(usernamescreen);
-		test.log(LogStatus.INFO, "usernamescreenbelow"+unamescreen);
+    	//String usernamescreen = capture.capturescreen(driver, "username");
+		//String unamescreen = test.addScreenCapture(usernamescreen);
+		//test.log(LogStatus.INFO, "usernamescreenbelow"+unamescreen);
     	
     	
     	
     	loginpage.verifypassword();
     	Reporter.log("verify password");
     	test.log(LogStatus.INFO, "Verifying password");
-    	capture.capturescreen(driver, "password");
     	
-    	String pwordscreen = capture.capturescreen(driver, "username");
-		String pwordscreen1 = test.addScreenCapture(pwordscreen);
-		test.log(LogStatus.INFO, "passwordscreenbelow"+pwordscreen1);
+    	//capture.capturescreen(driver, "password");
+    	
+    	//String pwordscreen = capture.capturescreen(driver, "username");
+		////String pwordscreen1 = test.addScreenCapture(pwordscreen);
+		//test.log(LogStatus.INFO, "passwordscreenbelow"+pwordscreen1);
     	
     	
     	loginpage.verifyloginbutton();
     	Reporter.log("verify button");
     	test.log(LogStatus.INFO, "Verifying button");
-    	capture.capturescreen(driver, "Button");
+    	//capture.capturescreen(driver, "Button");
     	
     	
     	try {
@@ -92,11 +93,12 @@ public void launchbrowser() {
     		loginpage.verifysignout();
     		Reporter.log("verify signout");
     		test.log(LogStatus.INFO, "Verifying signout");
-    		capture.capturescreen(driver, "signout");
     		
-    		String logoutscreen = capture.capturescreen(driver, "username");
-    		String logoutscreen1 = test.addScreenCapture(logoutscreen);
-    		test.log(LogStatus.INFO, "passwordscreenbelow"+logoutscreen1);
+    		//capture.capturescreen(driver, "signout");
+    		
+    		//String logoutscreen = capture.capturescreen(driver, "username");
+    		//String logoutscreen1 = test.addScreenCapture(logoutscreen);
+    		//test.log(LogStatus.INFO, "passwordscreenbelow"+logoutscreen1);
     		
     		
     	}catch(Exception ex) {
